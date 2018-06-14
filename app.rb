@@ -7,6 +7,10 @@ module FormsLab
       "Welcome to the Nested Forms Lab!"
     end
 
+    get '/new' do
+      erb :new
+    end
+
     post '/pirates' do
       erb :show
     end
