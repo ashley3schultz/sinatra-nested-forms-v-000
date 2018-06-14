@@ -3,13 +3,13 @@ require './environment'
 module FormsLab
   class App < Sinatra::Base
 
-    get '/' do 
+    get '/' do
 
-    end 
+    end
 
-    post '/pirates' do 
+    post '/pirates' do
       erb :show
-    end 
+    end
 
     # code other routes/actions here
 
