@@ -6,5 +6,5 @@ class Ship
     @name = name
     @weight = weight
     @height = height
-  end 
+  end
 end
